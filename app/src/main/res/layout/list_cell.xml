@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.gura.wearableui.ListItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:gravity="center_vertical">
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:id="@+id/circle"
+        android:layout_margin="16dp"
+        android:src="@drawable/circle"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:textSize="16sp"
+        android:textColor="#00ff00"
+        android:gravity="center_vertical|left"
+        android:id="@+id/text_name"
+        android:text="테스트"/>
+</com.gura.wearableui.ListItemLayout>
